@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="sign-up.css">
+ <div id="main">
+    <div id='signup-page'>
+           <h2>  Qeydiyyat</h2>
+    <form method='get'> 
+     <div class="inp">  
+ 
+        <input class="" placeholder="Ad" type="text">
+                <input class="" placeholder="Soyad" type="">
+ 
+    <input class="tel" placeholder="Nömrə"   type="tel" required>
+    <input class="email" placeholder="E-Poçt" type="email"> 
+        
+
+      <!-- <span class="show-psw " onclick="show_psw()">Göstər </span>   -->
+      <div class="password-inps"> 
+       <input class="password1 psw-inp" onkeydown="pw()" placeholder="Şifrə"
+        type="password"   min="6"   required>
+       <span id="show-password" class="fa fa-eye  " onclick="show_password()"> </span>  
+ 
+       <input class="password2 psw-inp" placeholder="Təkrar Şifrə"
+        type="password" min="6" onmouseout="equal()"   required>
+    <div id="password-length"></div> 
+    </div>
+     
+   
+
+ 
+    </div>  
+     
+            <div id="password_wrong"></div>  
+            <div id="error"></div>  
+
+       <input   id="accept" type="checkbox">
+    <label class="accept-txt" for="accept">Gizlilik Şərtlərini qəbul edirəm.</label>
+ 
+  
+        <button class='btn sign-up' type="submit" onclick="sbt()">Qeydiyyatdan Keç </button>
+          <p id="or"> </p>
+     
+                <!-- <div id="forget"> <a title=""  href="#">Şifrəni unutmusunuz?</a></div> -->
+
+   </form>    
+
+        </div></div>
+        <footer> 
+     <div class='btn sign-in' type="submit" onclick=" ">
+          Hesabın var?<span>  Daxil Ol</span> </div>
+        <ul id="follow-links">
+<li > <a title="feysbuk" href="#" class="fa fa-facebook-official"></a> </li>
+<li ><a title="youtube" class="fa fa-youtube-play" href="#"></a> </li>
+<li > <a title="instaqram" class="fa fa-instagram" href="#"></a> </li>
+        </ul>
+    </footer>
+     <script src="sign-up.js"></script>
+
+</body>
+</html>
+
+
+
