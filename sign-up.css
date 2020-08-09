@@ -1,184 +1,178 @@
- 
-body{
-    background: linear-gradient(to right,
-    rgb(100,10,100),rgb(111,1,0));
-  
- 
-}
-body a{
-        text-decoration: none;
-     
-}
-#main{
-display: flex;
-align-items: center;
-position: absolute;
-    top:0;
-    bottom:39px; 
-       right:0;
-    left:0;
-}
-
-#signup-page{
-    padding:3px 30px;
-    border:1px  solid #333;
-    border-radius: 9px;
-    width:40%;
-    background: #eee;
-    position: relative;
-
-
-z-index: 0;
-
-color:#333 ;
-margin:31px auto;
-
-/* box-shadow:1px  1px   9px rgb(220,10,60) */
-}
-* ::placeholder{
-color:#606060
-}
-
-.inp input {
-    padding:2.5% 0;
-    margin-left: auto;
-margin-right: auto;
- width: 49%;
- margin:9px 0;
- background:#f0f0f0;
-border:none;
-outline: none;
-border-radius: 9px;
-text-indent:9px;
-box-sizing:border-box ;
-
-}
-input:focus{
-    background:lightyellow
-}
-/* #person,#password{
-    width:50%;display: inline-block;
-} */
- 
-.btn{
-    padding:12px;
-    color:#eee;
-    font-weight: bold;
-    display: block ;
-  
-    right:9px;
-    margin-top:15px;
-    
-    border-radius: 3px;
-
-}
-btn:active{
-    padding: 11px;
-}
-.sign-in{
- 
-    border:none;
-    background:none;
+body {
+     background: linear-gradient(to right, rgb(100, 10, 100), rgb(111, 1, 0));
  }
-.sign-up{
-          background:linear-gradient(to left, green,darkgreen);  
-    border:1px solid darkgreen
-}
- 
-.sign-up{
-position: relative;
-right: 0;
 
-}
-#accept{
-    margin:9px 0
-}
-#forget{
- font-size: 95%;
- color:blueviolet;
- font-weight: 600;
- margin:3px 0;
- text-align: center!important;
-}
- 
+ body a {
+     text-decoration: none;
+ }
 
-#error,#password_wrong{
-    line-height:1.5em;
-    padding:9px;background:rgb(180,0,0);
-   color:#F3F3F3; margin:6px 0;border-radius:6px;
-   display:none
-}
+ #main {
+     display: flex;
+     align-items: center;
+     position: absolute;
+     top: 0;
+     bottom: 39px;
+     right: 0;
+     left: 0;
+ }
 
-.password-inps{ 
-    position: relative;
-    
-}
-#show-password{
-    position: absolute;
-    top:20px;
-    right:9px;
-    display: none;
-}
-.sign-in{
-   
-}
-#follow-links,.sign-in {
- 
-     display:flex;
-   justify-content: center;
+ #signup-page {
+     padding: 3px 30px;
+     border: 1px solid #333;
+     border-radius: 9px;
+     width: 40%;
+     background: #eee;
+     position: relative;
+     z-index: 0;
+     color: #333;
+     margin: 31px auto;
+     /* box-shadow:1px 1px 9px rgb(220,10,60) */
+ }
 
+ * ::placeholder {
+     color: #606060
+ }
 
-  padding: 9px;
-     margin-left:auto;
-    margin-right: auto;  
-}
-#follow-links li{
-    margin:0 18px;  list-style: none;
+ .inp input {
+     padding: 2.5% 0;
+     margin-left: auto;
+     margin-right: auto;
+     width: 49%;
+     margin: 9px 0;
+     background: #f0f0f0;
+     border: none;
+     outline: none;
+     border-radius: 9px;
+     text-indent: 9px;
+     box-sizing: border-box;
+ }
 
-}
-#follow-links li a{
-  font-size:140%;    color:#aaa; 
-}
- #follow-links {
+ input:focus {
+     background: lightyellow
+ }
 
-}
-footer{
- position: absolute;
- right: 0;
- left:0;
- bottom:9px;
-z-index:0;
+ /* #person,#password{ width:50%;display: inline-block; }
+*/
+
+ .btn {
+     padding: 12px;
+     color: #eee;
+     font-weight: bold;
+     display: block;
+     right: 9px;
+     margin-top: 15px;
+     border-radius: 3px;
+ }
+
+ btn:active {
+     padding: 11px;
+ }
+
+ .sign-in {
+     border: none;
+     background: none;
+ }
+
+ .sign-up {
+     background: linear-gradient(to left, green, darkgreen);
+     border: 1px solid darkgreen
+ }
+
+ .sign-up {
+     position: relative;
+     right: 0;
+ }
+
+ #accept {
+     margin: 9px 0
+ }
+
+ #forget {
+     font-size: 95%;
+     color: blueviolet;
+     font-weight: 600;
+     margin: 3px 0;
+     text-align: center !important;
+ }
+
+ #error,
+ #password_wrong {
+     line-height: 1.5em;
+     padding: 9px;
+     background: rgb(180, 0, 0);
+     color: #F3F3F3;
+     margin: 6px 0;
+     border-radius: 6px;
+     display: none
+ }
+
+ .password-inps {
+     position: relative;
+ }
+
+ #show-password {
+     position: absolute;
+     top: 20px;
+     right: 9px;
+     display: none;
+ }
+
+ .sign-in {}
+
+ #follow-links,
+ .sign-in {
+     display: flex;
+     justify-content: center;
+     padding: 9px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #follow-links li {
+     margin: 0 18px;
+     list-style: none;
+ }
+
+ #follow-links li a {
+     font-size: 140%;
+     color: #aaa;
+ }
+
+ #follow-links {}
+
+ footer {
+     position: absolute;
+     right: 0;
+     left: 0;
+     bottom: 9px;
+     z-index: 0;
      /* display:flex;
-      align-self:flex-end;
-     flex-direction: column; 
-   
-    */
-
-}
-
-
-@media screen and (max-width:1024px){
-#signup-page,#follow-links{
-    width:54%
-} 
- 
-}
-@media screen and (max-width:720px){
-#signup-page,#follow-links{
-    width:60%;
-    font-size: 80%;
-  
-}
-.sign-in{
-  font-size: 90%;
-}
-#show-password{
-    top:15px;
-}
- .inp input,.password{
-     display: block ;width:100% ;
-     padding:3.9% 0;
+align-self:flex-end; flex-direction: column; */
  }
 
- 
-}
+ @media screen and (max-width:1024px) {
+     #signup-page,
+     #follow-links {
+         width: 54%
+     }
+ }
+
+ @media screen and (max-width:720px) {
+     #signup-page,
+     #follow-links {
+         width: 60%;
+         font-size: 80%;
+     }
+     .sign-in {
+         font-size: 90%;
+     }
+     #show-password {
+         top: 15px;
+     }
+     .inp input,
+     .password {
+         display: block;
+         width: 100%;
+         padding: 3.9% 0;
+     }
+ }
